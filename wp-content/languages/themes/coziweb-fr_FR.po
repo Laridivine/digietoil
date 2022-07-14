@@ -1,0 +1,72 @@
+# Translation of Themes - CoziWeb in French (France)
+# This file is distributed under the same license as the Themes - CoziWeb package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-11-15 11:48:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - CoziWeb\n"
+
+#. Description of the theme
+msgid "CoziWeb is an innovative responsive multi-purpose WordPress theme with a super modern, clean and fresh design. CoziWeb has the most suitable everything for all engaging business sites, the theme is extremely feature-rich and powerful. Checkout Pro Version https://burgerthemes.com/demo/pro/coziweb/"
+msgstr "CoziWeb est un thème WordPress innovant, responsive et polyvalent, doté d‘une conception super moderne, propre et fraîche. CoziWeb a tout ce qu’il y a de plus approprié pour tous les sites d’entreprises engageantes, le thème est extrêmement riche en fonctionnalités et puissant. Découvrez la version Pro https://burgerthemes.com/demo/pro/coziweb/"
+
+#. Theme Name of the theme
+msgid "CoziWeb"
+msgstr "CoziWeb"
+
+#: inc/customizer/customizer-pro/class-customize.php:76
+msgid "Get More Features in CoziWeb Pro"
+msgstr "Obtenez plus de fonctionnalités avec CoziWeb Pro"
+
+#: template-parts/sections/section-header.php:208
+msgid "Header Above Collapse"
+msgstr "En-tête au dessus du repliage"
+
+#: template-parts/sections/section-header.php:203
+msgid "Header Close Menu"
+msgstr "En-tête de fermeture de menu"
+
+#: template-parts/sections/section-header.php:194
+msgid "Menu Collaped"
+msgstr "Menu replié"
+
+#: template-parts/sections/section-header.php:129
+msgid "0"
+msgstr "0"
+
+#: template-parts/sections/section-header.php:102
+msgid "Search Popup Close"
+msgstr "Fermeture de popup de recherche"
+
+#: template-parts/sections/section-header.php:99
+msgid "Type To Search"
+msgstr "Saisissez votre recherche"
+
+#: template-parts/sections/section-header.php:98
+msgid "Site Search"
+msgstr "Recherche du site"
+
+#: template-parts/sections/section-header.php:93
+msgid "Search Popup"
+msgstr "Popup de recherche"
+
+#: header.php:17
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+#. Theme URI of the theme
+msgid "https://burgerthemes.com/coziweb-free/"
+msgstr "https://burgerthemes.com/coziweb-free/"
+
+#. Author URI of the theme
+msgid "https://burgerthemes.com/"
+msgstr "https://burgerthemes.com/"
+
+#. Author of the theme
+msgid "burgersoftware"
+msgstr "burgersoftware"

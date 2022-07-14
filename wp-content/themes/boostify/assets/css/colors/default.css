@@ -1,0 +1,127 @@
+a,a:hover,a:focus,
+.boxed-btn:hover,
+.blog-post .more-link:hover,
+#header-top ul li i,
+.widget_info i,
+.contact-area .contact-icon,
+.search__close__btn_icon:hover i,
+.cart-btn:hover,
+.portfolio figcaption a,
+.features-box.active figcaption i,
+.features-box:hover figcaption i,
+.features-box:focus-within figcaption i,
+.service-box a,
+.blog-post .meta-info .posted-by a,
+.blog-post .meta-info .tagcloud a:hover,
+.action-bar .boxed-btn.white-bg,
+.copyright-text a,
+#breadcrumb-area li.active,
+.portfolio-box .content a,
+ul.pagination li a,
+.page-item.active .page-link,
+.media-body ul li.comment-replay,
+.post-new-comment .form-control,
+.input-wrapper input:focus + label,
+.input-wrapper textarea:focus + label,
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-info .info-box i,
+.contact-us-box:hover i,
+.poweredby a:hover,
+.text-404 i,
+.widget_about li i,
+.widget_links li:before,
+.widget_links li a:hover,
+.widget_recent .latest-news:hover p,
+.widget .post-date,
+.newsletter button:hover,
+.comingsoon-footer .social-list li a:hover,
+.widget_links li:before, #footer-widgets .widget ul li:before,
+.sidebar ul li:hover:before,
+.blog-post .post-content a.more-link:hover,
+.blog-post .post-content a.more-link:focus {
+	color: var(--bs-primary);
+}
+
+#header-top .header-social  a:before,
+.section-header h2:after,
+.boxed-btn,
+.blog-post .more-link,
+.book-now,
+.cart-icon .cart-count,
+.search__area .search__inner form button:hover,
+.cart-btn,
+.navbar-pc li a:hover,
+.navbar-pc li.active > a,
+.header-slider .owl-dots div.active,
+.portfolio-tab-sorting li a.active,
+.testimonial-carousel .owl-dots div.active,
+.order-btn:before,
+.heavy-package .package-head,
+.single-package:focus-within .package-head,
+.single-package:hover .package-head,
+.subscribe-text:before,
+#subscribe-form button,
+.action-bar,
+.action-bar .boxed-btn.white-bg:hover:before,
+.action-bar .boxed-btn.white-bg:focus:before,
+.achieve-box:hover,
+.servicep-box,
+.servicep-box:hover,
+.servicep-box:hover .boxed-btn:before,
+ul.pagination li a:after,
+.pagination .page-numbers:after,
+ul.pagination li.next a,
+ul.pagination li.next a:hover,
+.pagination a.next.page-numbers,
+.pagination a.prev.page-numbers,
+#footer-widgets .widget hr:before,
+#footer-widgets .widget hr:after,
+.sidebar .widget hr,
+.search-form button,
+.widget .tagcloud a,
+.newsletter button,
+input[type="submit"],
+.wp-block-loginout a,
+.wp-block-button a.wp-block-button__link {	
+    background: var(--bs-primary);
+}
+
+.cart-btn:hover,
+.servicep-box:hover,
+.contact-form input:focus,
+.contact-form textarea:focus,
+.categories select,
+.newsletter input:focus,
+.newsletter button:hover {
+	border-color: var(--bs-primary);
+}
+
+
+.widget .tagcloud a:after {
+	border-left-color: var(--bs-primary) !important;
+}
+
+nav.portfolio-pagination .pagination {
+	border-color: var(--bs-primary);
+}
+
+#footer-widgets .widget ul li a{
+   color: var(--bs-white);
+}
+
+#footer-widgets .widget ul li a:hover,
+#footer-widgets .widget ul li a:focus{
+   color: var(--bs-primary);
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a:focus{
+	 color: var(--bs-secondary);
+}
+
+
+table a, strong a, blockquote a, code a, p a, .blog-post .post-content p a {
+    color: var(--bs-primary);
+    text-decoration: underline;
+}

@@ -1,0 +1,291 @@
+/*
+Theme Name: CoziWeb
+Theme URI: https://burgerthemes.com/coziweb-free/
+Author: burgersoftware
+Author URI: https://burgerthemes.com/
+Description: CoziWeb is an innovative responsive multi-purpose WordPress theme with a super modern, clean and fresh design. CoziWeb has the most suitable everything for all engaging business sites, the theme is extremely feature-rich and powerful. Checkout Pro Version https://burgerthemes.com/demo/pro/coziweb/
+Template: cozipress
+Version: 1.0.4
+Tested up to: 6.0
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: coziweb
+Slug: coziweb
+Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, blog, grid-layout, portfolio, photography
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+
+/* Colors */
+
+:root {
+    --bs-black:#000000;
+    --bs-blue:#0d6efd;
+    --bs-indigo:#6610f2;
+    --bs-purple:#6f42c1;
+    --bs-pink:#d63384;
+    --bs-red:#dc221c;
+    --bs-orange:#fd7e14;
+    --bs-orange-dark:#ee4a34;
+    --bs-orange-dark-light:#fae4df;
+    --bs-yellow:#ffcc00;
+    --bs-green:#28a745;
+    --bs-teal:#20c997;
+    --bs-cyan:#17a2b8;
+    --bs-white:#ffffff;
+    --bs-gray:#dedede;
+    --bs-gray-light: #f7f7f7;
+    --bs-gray-dark:#343a40;
+    --bs-primary:#ffb614;
+    --bs-primary-dark:#bf5e0b;
+    --bs-primary-light: #effffc;
+    --bs-primary-shadow:rgb(0 123 255 / 0.5);
+    --bs-secondary:#181c28;
+    --bs-secondary-dark: #151822;
+    --bs-gray-500: #f2f2f2;
+    --bs-gray-500-thumb: #c2c2c2;
+    --bs-success:#28a745;
+    --bs-info:#17a2b8;
+    --bs-warning:#ffc107;
+    --bs-danger:#dc3545;
+    --bs-light:#f8f9fa;
+    --bs-dark:#343a40;
+    --bs-font-sans-serif:"Source Sans Pro",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-font-awesome: "FontAwesome";
+    --bs-gradient:linear-gradient(180deg,rgba(255,255,255,0.15),rgba(255,255,255,0));
+    --bs-gradient-image:linear-gradient(180deg,rgba(255,255,255,0.15),rgba(255,255,255,0));
+    --bs-shadow: 2px 5px 20px rgba(0, 0, 0, .2);
+    --bs-radius: 0.1875rem;
+    --bs-theme-radius: 6.25rem;
+    --bs-transition: all .35s cubic-bezier(.645,.045,.355,1);
+    --bs-transition-slow: all .55s cubic-bezier(.645,.045,.355,1);
+    --bs-transition-very-slow: all .75s cubic-bezier(.645,.045,.355,1);
+}
+
+
+.logo a {
+    margin: 0;
+}
+
+.site-description {
+    font-size: 15px;
+}
+
+
+.heading-default .badge:after {
+    background-color: #f9e1ab;
+}
+
+.homepage-4 .main-navbar .main-menu > li > a {
+    line-height: 5rem;
+}
+
+.homepage-4 .main-mobile-menu,
+.homepage-4 .main-navigation,
+.homepage-4 .main-menu-right > ul > li {
+    min-height: 5rem;
+}
+
+.homepage-4.header-transparent .navbar-area,
+.homepage-4.header-transparent .main-header .th-ovelay {
+    background-color: rgb(0 0 0 / 0.4);
+}
+
+.homepage-4.header-transparent .main-header .th-ovelay {
+    padding: 0 0.95rem;
+}
+.homepage-4 .navbar-area{
+	justify-content: space-between;
+    -ms-flex-pack: space-between;
+    padding-left: 0.95rem;
+}
+.homepage-4 .main-header .header-search-toggle,
+ .homepage-4 .header-cart{
+	background-color: var(--bs-primary);
+}
+
+ .homepage-4 li.cart-wrapper:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    margin: auto;
+    border-right: 1px solid rgb(108 117 125 / 0.6);
+}
+
+body.homepage-4 .main-navigation-info .th-ovelay {
+    border-bottom: 1px solid rgb(108 117 125 / 0.6);
+}
+
+
+.homepage-4 .navbar-area .widget_social_widget li a {
+    color: var(--bs-primary);
+    background-color: var(--bs-secondary-dark);
+}
+
+.homepage-4 .navbar-area .widget_social_widget li:last-child {
+       margin-right: 15px;
+}
+
+.homepage-4 .main-header .search-button,
+.homepage-4 .cart-wrapper{
+	    width: 50px;
+}
+
+.homepage-4 .main-info-list .widget:first-child {
+   border-right: 1px solid rgb(108 117 125 / 0.6);
+}
+
+
+
+
+/*===== 09. Design Section =====*/
+
+.design-section {
+    position: relative;
+    z-index: 0;
+}
+
+.design-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 0;
+}
+
+.design-item h4 {
+    margin-bottom: 0.25rem;
+}
+
+.design-item h4 a {
+    text-decoration: none;
+}
+
+.design-item h4 a:not(:hover),
+.design-item h4 a:not(:focus) {
+    color: var(--bs-secondary);
+}
+
+.design-item h4 a:hover,
+.design-item h4 a:focus {
+    color: var(--bs-primary);
+}
+
+.design-item p {
+    margin-bottom: 0;
+}
+
+.design-icon {
+    width: 4.375rem;
+    height: 4.375rem;
+    padding: 0.55rem;
+    margin-right: 1rem;
+    text-align: center;
+    font-size: 2.188rem;
+    color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    background-color: var(--bs-white);
+    position: relative;
+    -webkit-transition: var(--bs-transition);
+    transition: var(--bs-transition);
+    box-shadow: 0px 5px 18px 0px rgba(33, 68, 98, 0.37);
+}
+
+.design-icon:after,
+.design-icon:before {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-width: 0;
+    border-style: solid;
+    border-color: inherit;
+    z-index: 1;
+    -webkit-transition: var(--bs-transition);
+    transition: var(--bs-transition);
+}
+
+.design-icon:after {
+    top: 0;
+    right: 0;
+    border-right-width: 2px;
+    border-top-width: 2px;
+}
+
+.design-icon:before {
+    bottom: 0;
+    left: 0;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.design-item:hover .design-icon:after,
+.design-item:hover .design-icon:before,
+.design-item:focus-within .design-icon:after,
+.design-item:focus-within .design-icon:before {
+    width: 100%;
+    height: 100%;
+}
+
+.design-img {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 5px 40px 0px rgba(33, 68, 98, 0.19);
+}
+
+.design-img img {
+    object-fit: cover;
+    min-height: 448px;
+}
+
+.tilter {
+    perspective: 1000px;
+}
+
+.tilter * {
+    pointer-events: none;
+}
+
+.tilter__figure > * {
+    transform: translateZ(0px); /* Force correct stacking order */
+}
+
+.smooth .tilter__figure,
+.smooth .tilter__deco--overlay,
+.smooth .tilter__deco--lines,
+.smooth .tilter__deco--shine div,
+.smooth .tilter__caption {
+    -webkit-transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+}
+
+.tilter__figure {
+    position: relative;
+}
+
+.tilter__deco--lines {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 92%;
+    height: 91%;
+    border: 0.156rem dashed var(--bs-white);
+    margin: auto;
+    border-radius: 10px;
+}
+
+/*===== // =====*/
